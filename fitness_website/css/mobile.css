@@ -1,0 +1,161 @@
+/* utility classes */
+.l-heading {
+    font-size: 2.10rem;
+    line-height: 1.5;
+}
+.heading {
+    box-sizing: border-box;
+    font-size: 30px;
+    padding: 1rem;
+}
+.load{
+    font-size: 0.5rem;
+    text-align: center;
+}
+/*navbar */
+
+
+#navbar .logo {
+    margin-bottom: 1rem;
+}
+
+/*section about*/
+#About .about-content {
+    display: block;
+    text-align: center;
+    
+}
+#About .about-content  {
+    padding: 1rem;
+}
+#About .about-content img {
+    width: 100%;
+    margin: 1rem 0 0 0;
+    
+}
+.p-frem {
+    width: 100%;
+    
+    
+}
+
+/* section programs */
+
+/*!!!!!!!*/
+#Programs .boxes {
+    display: block;
+    line-height: 1.75rem;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+/* section trainers*/
+#trainers .trainers-boxes {
+    display: block;
+    width: 69%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* contact */
+
+#contact {
+    flex-direction: column;
+    height: 1000px;
+    
+}
+
+@media (max-width:500px) {
+    
+
+    #navbar ul li {
+        padding: 1rem;
+    }
+    .container {
+        max-width: 100%;
+        margin: auto;
+    }
+    #contact .contact-us .form-group {
+        display: block;
+        
+    }
+    
+}
+
+@media (max-width:800px) {
+    #contact .contact-us input,
+    #contact .contact-us  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    margin-bottom: 1rem;
+    outline: none;
+    
+    
+    }
+}
+
+/* menu navbar */
+@media (max-width:990px) {
+    nav  #icon {
+        display: block;
+    }
+    #navbar ul {
+        position: fixed;
+        height: 54vh;
+        top: 105px;
+        left: 0;
+        text-align: center;
+        left: -100%;
+        transition: all .5s;
+        background-color: #222;
+        
+        display: block;
+        line-height: 1.75rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: auto;
+        
+
+    }
+    #navbar ul {
+        display: block;
+        
+        
+    }
+    #navbar ul li  {
+        margin: 7px 0;
+        border-bottom: 1px solid #fff;
+        
+    }
+    #navbar ul.show {
+        left: 0;
+    }
+    #navbar ul li a:hover {
+        border: none;
+        color: #F6C026;
+        
+    }
+    
+    
+    #navbar ul li #a1 {
+        color: #F6C026;
+        
+    }
+}
+
+@media (max-width:320px)  {
+    #navbar ul {
+        height: 59%;
+        width: 99.5%;
+    }
+}
+
+
+
+

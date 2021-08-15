@@ -1,0 +1,315 @@
+/* Rboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*colors use: 252A34/ CACACA /4C4556 / 872642 / F6C026 / A0D3F9*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Mini style*/
+html, body {
+    font-family: 'Roboto', sans-serif;
+    
+} 
+a {
+    text-decoration: none;
+}
+
+/* Utility classes */
+.container {
+    max-width: 88%;
+    margin: auto;
+}
+.bg-dark {
+    background-color: #4C4556;
+    color: #fff;
+}
+.text-premary {
+    color: #872642;
+    
+}
+
+/* section: navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0.1rem;
+    z-index: 1;
+}
+
+#navbar .logo {
+    font-size: 30px;
+    padding: 1rem;
+    color: #F6C026;
+}
+#navbar .logo a {
+    text-decoration: none;
+    color:  #F6C026;;
+}
+#navbar  ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar  ul li {
+    color: #fff;
+}
+
+
+/* menu navabr */
+#navbar  ul li a {
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 10px 1rem;
+    border-radius: 3px;
+}
+#navbar  ul li a:hover {
+    border: 1px solid #F6C026;
+    transition: .5s;
+    
+    
+}
+nav #icon {
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+/* section: showcase */
+.text-center {
+    text-align: center;
+}
+.heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    
+}
+.heading span {
+    color: #872642;
+}
+.py-1 {
+    padding: 1.5rem 0;
+}
+.btn {
+    background-color: #F6C026;
+    color: #fff;
+    padding: 0.80rem 1.5rem;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+
+#showcase {
+    background: #4C4556 url("../image/zamenit-sport.jpg");
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+/*import*/
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+/* section: About */
+.bg-light {
+    background-color: #CACACA;
+    color: #252A34;
+    
+}
+
+#About .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.load {
+    font-size: 1.85rem;
+}
+.m-heading {
+    font-size: 2rem;
+}
+#About .about-content div,
+#About .about-content img {
+    /*kol wahd wakhod 50% mn lwidth*/
+    flex: 1;
+    
+}
+
+#About .about-content div p {
+    text-align: justify;
+}
+
+#About .about-content img  {
+    width: 50%;
+    margin-left: 1.5rem;
+    border: 5px solid #fff;
+    
+}
+
+.box-shadow {
+    box-shadow: 0 0 2px #252A34;
+}
+
+
+/*section2*/
+#cta {
+    background: #4C4556  url("/image/box-s.jpg") no-repeat center/cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#cta .cta-content {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8)
+    
+    
+}
+
+.l-heading {
+    font-size: 2rem;
+}
+#cta .cta-content .container p {
+    margin-bottom: 1.5rem;
+    font-size: 25px;
+}
+
+/* section: Programs*/
+#Programs {
+    color: #252A34;
+    
+}
+#Programs .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Programs .boxes .box img {
+    width: 70px;
+    background: #F6C026;
+    border-radius: 50%;
+    padding: 0.35rem;
+}
+
+#Programs .boxes .box {
+    flex: 1;
+    padding: 1rem;
+}
+
+#Programs .boxes .box p {
+    color: #7c7474;
+}
+
+.p-1{padding: 1.5rem;}
+
+/* section theme */
+
+.bg-light .trainers-boxes {
+    display: flex;
+    
+    
+}
+#trainers .trainers-boxes .trainer-box {
+    background: #fff;
+    flex: 1;
+    border-radius: 5px;
+    margin: 1rem;
+    
+}
+
+.trainers-boxes .p-1 img {
+    display: block; 
+    width: 100%;
+    margin-bottom: 10px;
+}
+#trainers .trainers-boxes .trainer-box ul {
+    list-style: none;
+    display: flex;
+}
+#trainers .trainers-boxes .trainer-box ul  li {
+    padding: 10px;
+}
+
+#trainers .trainers-boxes .trainer-box ul  li i:hover {
+    color:  #FF2E63;
+}
+
+/* section contact */
+.bg-premary {
+    background: #A0D3F9;
+}
+#contact {
+    display: flex;
+    
+}
+
+#contact .contact-us,
+#contact .map {
+    flex: 1;
+    padding-left: 6rem;
+
+    color: rgb(218, 133, 22);
+}
+
+#contact .contact-us input,
+#contact .contact-us  textarea {
+    width: 99%;
+    padding: 0.75rem;
+    border: none;
+    margin-bottom: 1rem;
+    outline: none;
+    
+    
+}
+.btn-dark {
+    background-color: #4C4556;
+}
+#contact .contact-us .form-group {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#contact .contact-us .form-group input[type="text"] {
+    margin-right: 0.75rem;
+    
+    
+}
+
+.map  {
+    padding-right: 3%;
+    background-color: rgb(216, 193, 193);
+}
+
+.p-frem {
+    width: 50%;
+    
+    
+}
